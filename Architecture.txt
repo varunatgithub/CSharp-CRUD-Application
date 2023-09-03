@@ -1,0 +1,39 @@
+Library Management System Architecture:
+
+Library class:
+
+Description: Represents a library and manages books and members.
+Methods:
+AddBook(book: Book): void: Adds a book to the library's collection.
+RemoveBook(book: Book): void: Removes a book from the library's collection.
+BorrowBook(book: Book, member: Member): void: Allows a member to borrow a book.
+ReturnBook(book: Book, member: Member): void: Allows a member to return a borrowed book.
+GetAvailableBooks(): Book[]: Retrieves a list of available books in the library.
+GetBorrowedBooks(member: Member): Book[]: Retrieves a list of books borrowed by a member.
+
+Book class:
+
+Description: Represents a book in the library.
+Properties:
+BookId: string (readonly): Unique identifier for the book.
+Title: string: Title of the book.
+Author: string: Author of the book.
+IsAvailable: bool: Indicates whether the book is currently available.
+Methods:
+UpdateAvailability(isAvailable: bool): void: Updates the availability status of the book.
+
+Member class:
+
+Description: Represents a library member.
+Properties:
+MemberId: string (readonly): Unique identifier for the member.
+Name: string: Name of the member.
+Methods:
+BorrowBook(book: Book): void: Allows the member to borrow a book.
+ReturnBook(book: Book): void: Allows the member to return a borrowed book.
+GetBorrowedBooks(): Book[]: Retrieves a list of books borrowed by the member.
+
+
+The Library class manages the addition and removal of books, book borrowing and returning operations, and provides methods to retrieve available books and borrowed books.
+The Book class represents an individual book with properties like the book ID, title, author, and availability status.
+The Member class represents a library member with properties like the member ID and name, and it provides methods to borrow and return books.
