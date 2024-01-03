@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hyVJ3Q+5Xe7ZEvbt0VlXTLUIaZn1agWNoukZDfW9kYvZOi1NCcqfwM+WfNZ1fOSVgs0aeON1cR6x5VOKVSQaLQ==",
+  "dgSpecHash": "LnE9ZVcUkBvPtu35mqw0h7KLZeksdU4RHlkQa4HaNSiiRfB//3EtiF+8uKyTUb5EmN7eGb41+EVkHKsVsDcoQQ==",
   "success": true,
-  "projectFilePath": "C:\\Code\\CSharp-CRUD-Application\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\varun\\OneDrive\\Documents\\GitHub\\CSharp-CRUD-Application\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\varun\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\varun\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\varun\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\varun\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
